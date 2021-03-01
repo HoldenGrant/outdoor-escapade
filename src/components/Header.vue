@@ -7,7 +7,7 @@
 
                     <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
-                    <b-navbar-brand>BootstrapVue</b-navbar-brand>
+                    <b-navbar-brand>OutDoor Escapade</b-navbar-brand>
 
                     <b-collapse id="nav-text-collapse" is-nav>
 
