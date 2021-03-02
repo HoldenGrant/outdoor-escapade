@@ -1,0 +1,13 @@
+#slider-home button.slick-arrow.slick-next {
+  right: 25px;
+}
+
+#slider-home button.slick-arrow.slick-prev {
+  left: 25px;
+  z-index: 2;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+/*# sourceMappingURL=main.css.map */

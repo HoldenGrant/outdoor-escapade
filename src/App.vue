@@ -3,12 +3,13 @@
     <Header/>
     
     <router-view/>
+    
     <Footer/>
   </div>
 </template>
 <script>
 
-//import Footer from './components/Footer'
+// import css from '@/stye/main.css'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 export default {
@@ -16,7 +17,8 @@ export default {
   components: {
     //HelloWorld,
     Footer,
-    Header
+    Header,
+    // css
   }
 }
 </script>
