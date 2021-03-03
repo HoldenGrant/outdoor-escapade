@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/outdoor-escapade/precache-manifest.6732e6cd4a2f85770f11b4a09f3facfc.js"
+  "/outdoor-escapade/precache-manifest.2779e2d4aa24bfa2ae4804126ffc4e9a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "outdoor-escapade"});
