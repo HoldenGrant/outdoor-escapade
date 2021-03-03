@@ -18,6 +18,7 @@
                         <b-navbar-nav class="text-right ml-auto">
                             <b-nav-item><router-link to="/">Home</router-link></b-nav-item>
                             <b-nav-item><router-link to="/about">About</router-link></b-nav-item>
+                            <b-nav-item><router-link to="/outdoor">Outdoor</router-link></b-nav-item>
                             <b-nav-item><router-link to="/contact-us">Contact Us</router-link></b-nav-item>
                         </b-navbar-nav>
                         </b-collapse>
@@ -26,6 +27,8 @@
                 </div>
             </b-row>
         </b-container>
+        <h1 v-if="homePage">Vue is awesome!</h1>
+    <h1 v-else>Oh no 😢</h1>
     </header>
 </template>
 

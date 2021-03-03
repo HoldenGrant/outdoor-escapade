@@ -12,12 +12,14 @@
 // import css from '@/stye/main.css'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import InnerPageBanner from '@/components/InnerPageBanner'
 export default {
   name: 'App',
   components: {
     //HelloWorld,
     Footer,
     Header,
+    InnerPageBanner,
     // css
   }
 }
